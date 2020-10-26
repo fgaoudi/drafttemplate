@@ -1,0 +1,97 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "1a7d17dd-56c4-4236-9f01-52592824c91f": {
+        "id": "1a7d17dd-56c4-4236-9f01-52592824c91f",
+        "parent": null,
+        "name": "drafttemplate.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "drafttemplate.js",
+        "cursor": {
+          "lineNumber": 7,
+          "column": 3
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "drafttemplate"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigdrafttestget",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1603723410176
+      }
+    },
+    "openFiles": [
+      "1a7d17dd-56c4-4236-9f01-52592824c91f"
+    ],
+    "currentFileId": "1a7d17dd-56c4-4236-9f01-52592824c91f",
+    "resources": {
+      "apigdrafttestget": {
+        "name": "apigdrafttestget",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "draft",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "test",
+          "resourcePath": "/test",
+          "restMethod": "GET",
+          "proxyIntegration": true,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "ppr",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.4.1",
+    "projectName": "drafttemplate",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ca-central-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1603723542192
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "drafttemplate",
+      "url": "https://github.com/fgaoudi/drafttemplate"
+    }
+  }
+}
